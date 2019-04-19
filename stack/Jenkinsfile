@@ -1,0 +1,15 @@
+pipeline {
+   agent { dockerfile true }
+
+   stages {
+      stage('Build') {
+         steps {
+            sh 'pwd'
+            sh 'ls -ltr /usr/lib/'
+            git url: 'file:///data/git/stack.git', branch: 'master'
+            sh 'cd src && cmake ..'
+            sh 'cd src && cmake --build .'
+         }
+      }
+   }
+}
