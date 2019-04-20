@@ -5,7 +5,7 @@ bin
 
 # CLion
 .idea
-src/Testing/
+Testing/
 DartConfiguration.tcl
 
 # Cmake
@@ -21,6 +21,7 @@ Makefile
 *.ko
 *.obj
 *.elf
+*_TEST
 
 # Linker output
 *.ilk
