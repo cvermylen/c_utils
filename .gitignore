@@ -7,6 +7,7 @@ bin
 .idea
 Testing/
 DartConfiguration.tcl
+*.cbp
 
 # Cmake
 CMakeFiles/
