@@ -1,4 +1,4 @@
-FROM alpine:3.9
+FROM alpine3_9/criterion2_3:latest
 RUN apk update 
 RUN apk add ca-certificates wget
 RUN update-ca-certificates
