@@ -1,0 +1,9 @@
+Upload files:
+0	Build.xml
+1	Configure.xml
+2	Test.xml
+Using drop method: http
+	Upload file: /Users/christian/projects/c_utils/stack/Testing/20190427-1503/Build.xml to teutatis.VERMYLEN.ORG___Darwin-clang++___20190427-1503-Continuous___XML___Build.xml
+   Error when uploading file: /Users/christian/projects/c_utils/stack/Testing/20190427-1503/Build.xml
+   Error message was: 
+   Problems when submitting via HTTP

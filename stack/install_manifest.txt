@@ -1,0 +1,3 @@
+/usr/local/lib/libstack.dylib
+/usr/local/include/stack.h
+/usr/local/include/str_stack.h

@@ -15,11 +15,16 @@ stack_head_t* stack_init()
 void stack_push(stack_head_t* stack, void* elem)
 {
 	if(stack == NULL) return;
+	printf("1'%s'\n", elem);
 	stack_node_t* node = (stack_node_t*)malloc(sizeof(stack_node_t));
+    printf("2'%s'\n", elem);
 	node->elem = elem;
+    printf("3'%s'\n", elem);
 	node->next = stack->root;
 	stack->root = node;
 	stack->num_elems++;
+
+	printf("'%s''%s'\n",elem, node->elem);
 }
 
 void* stack_pop(stack_head_t* stack)

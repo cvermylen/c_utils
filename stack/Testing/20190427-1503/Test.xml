@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Site BuildName="Darwin-clang++"
+	BuildStamp="20190427-1503-Continuous"
+	Name="teutatis.VERMYLEN.ORG"
+	Generator="ctest-3.13.4"
+	CompilerName="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++"
+	CompilerVersion="10.0.1.10010046"
+	OSName="Mac OS X"
+	Hostname="teutatis.VERMYLEN.ORG"
+	OSRelease="10.14.4"
+	OSVersion="18E226"
+	OSPlatform="x86_64"
+	Is64Bits="1"
+	VendorString="GenuineIntel"
+	VendorID="Intel Corporation"
+	FamilyID="6"
+	ModelID="158"
+	ProcessorCacheSize="32768"
+	NumberOfLogicalCPU="8"
+	NumberOfPhysicalCPU="4"
+	TotalVirtualMemory="0"
+	TotalPhysicalMemory="16384"
+	LogicalProcessorsPerPhysical="8"
+	ProcessorClockFrequency="2900"
+	>
+	<Testing>
+		<StartDateTime>Apr 27 11:03 EDT</StartDateTime>
+		<StartTestTime>1556377414</StartTestTime>
+		<TestList>
+			<Test>./tests/stack_TEST</Test>
+			<Test>./tests/str_stack_TEST</Test>
+		</TestList>
+		<Test Status="passed">
+			<Name>stack_TEST</Name>
+			<Path>./tests</Path>
+			<FullName>./tests/stack_TEST</FullName>
+			<FullCommandLine>/Users/christian/projects/c_utils/stack/tests/stack_TEST</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.0416333</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>/Users/christian/projects/c_utils/stack/tests/stack_TEST</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value encoding="base64" compression="gzip">eJxTT1QoLinKzEtX51JPyywqLgHSxanJ+XkpQEZJRmYRiE7LLy0qycCnwj8vVZ0rWjrawNrYJNcWCIDM3FgFkIBhbnBlXklGanFmsZVCSGpxSWqKlQJUpTlEgUKNQkBicTHQFVAZIyQZt8TMHJhMrgFc2LkosTgDQxzE5gIAgs49+A==</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<Test Status="passed">
+			<Name>str_stack_TEST</Name>
+			<Path>./tests</Path>
+			<FullName>./tests/str_stack_TEST</FullName>
+			<FullCommandLine>/Users/christian/projects/c_utils/stack/tests/str_stack_TEST</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.0306125</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>/Users/christian/projects/c_utils/stack/tests/str_stack_TEST</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value encoding="base64" compression="gzip">eJxTD67MK8lILc4stlIISS0uKVbnUsciFJBYXJyZl47CckvMzEFn+Rcp5AP1FpVnFqfq6WETyE6tNERQZYk5pakoDLfMouISBdec1NzUvBJMfrR0tIG1sUmuLRAAmbmxCiABw1w0N6emWClAVZpAFCjUKECdDpUxQpKBegAsk2sAF3YuSizOwBAHsbkA/Z5eiA==</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<EndDateTime>Apr 27 11:03 EDT</EndDateTime>
+		<EndTestTime>1556377414</EndTestTime>
+		<ElapsedMinutes>0</ElapsedMinutes>
+	</Testing>
+</Site>

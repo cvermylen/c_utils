@@ -1,0 +1,58 @@
+Start testing: Apr 27 11:03 EDT
+----------------------------------------------------------
+1/2 Testing: stack_TEST
+1/2 Test: stack_TEST
+Command: "/Users/christian/projects/c_utils/stack/tests/stack_TEST"
+Directory: /Users/christian/projects/c_utils/stack/tests
+"stack_TEST" start time: Apr 27 11:03 EDT
+Output:
+----------------------------------------------------------
+'a string'
+'first'
+'second'
+'third'
+'fourth'
+'first'
+'second'
+'third'
+'One'
+[[0;34m====[0m] [0;1mSynthesis: Tested: [0;34m7[0;1m | Passing: [0;32m7[0;1m | Failing: [0m0[0;1m | Crashing: [0m0[0;1m [0m
+<end of output>
+Test time =   0.04 sec
+----------------------------------------------------------
+Test Passed.
+"stack_TEST" end time: Apr 27 11:03 EDT
+"stack_TEST" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/2 Testing: str_stack_TEST
+2/2 Test: str_stack_TEST
+Command: "/Users/christian/projects/c_utils/stack/tests/str_stack_TEST"
+Directory: /Users/christian/projects/c_utils/stack/tests
+"str_stack_TEST" start time: Apr 27 11:03 EDT
+Output:
+----------------------------------------------------------
+'Synthesis: Tests'
+'Synthesis: Tests'
+'Passing'
+'Passing'
+'Failing'
+'Failing'
+'Or otherwise..'
+'Or otherwise..'
+'key1'
+'key1'
+'value1'
+'value1'
+'First Element'
+'First Element'
+[[0;34m====[0m] [0;1mSynthesis: Tested: [0;34m4[0;1m | Passing: [0;32m4[0;1m | Failing: [0m0[0;1m | Crashing: [0m0[0;1m [0m
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"str_stack_TEST" end time: Apr 27 11:03 EDT
+"str_stack_TEST" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Apr 27 11:03 EDT

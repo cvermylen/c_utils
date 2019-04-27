@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Site BuildName="Darwin-clang++"
+	BuildStamp="20190427-1503-Continuous"
+	Name="teutatis.VERMYLEN.ORG"
+	Generator="ctest-3.13.4"
+	CompilerName="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++"
+	CompilerVersion="10.0.1.10010046"
+	OSName="Mac OS X"
+	Hostname="teutatis.VERMYLEN.ORG"
+	OSRelease="10.14.4"
+	OSVersion="18E226"
+	OSPlatform="x86_64"
+	Is64Bits="1"
+	VendorString="GenuineIntel"
+	VendorID="Intel Corporation"
+	FamilyID="6"
+	ModelID="158"
+	ProcessorCacheSize="32768"
+	NumberOfLogicalCPU="8"
+	NumberOfPhysicalCPU="4"
+	TotalVirtualMemory="0"
+	TotalPhysicalMemory="16384"
+	LogicalProcessorsPerPhysical="8"
+	ProcessorClockFrequency="2900"
+	>
+	<Configure>
+		<StartDateTime>Apr 27 11:03 EDT</StartDateTime>
+		<StartConfigureTime>1556377413</StartConfigureTime>
+		<ConfigureCommand>"/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake" "/Users/christian/projects/c_utils/stack"</ConfigureCommand>
+		<Log>-- Configuring done
+-- Generating done
+-- Build files have been written to: /Users/christian/projects/c_utils/stack
+</Log>
+		<ConfigureStatus>0</ConfigureStatus>
+		<EndDateTime>Apr 27 11:03 EDT</EndDateTime>
+		<EndConfigureTime>1556377414</EndConfigureTime>
+		<ElapsedMinutes>0</ElapsedMinutes>
+	</Configure>
+</Site>

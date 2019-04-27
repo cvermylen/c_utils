@@ -19,4 +19,5 @@ void* stack_pop(stack_head_t* stack);
 int stack_depth(stack_head_t* stack);
 int is_stack_empty(stack_head_t* stack);
 void stack_free(stack_head_t* stack);
+
 #endif

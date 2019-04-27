@@ -1,0 +1,4 @@
+stack_TEST 2 0.00249871
+str_stack_TEST 1 0
+---
+str_stack_TEST
