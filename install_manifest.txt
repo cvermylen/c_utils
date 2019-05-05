@@ -1,0 +1,5 @@
+/usr/local/lib/libhashmap.so
+/usr/local/include/hashmap.h
+/usr/local/lib/libstack.so
+/usr/local/include/stack.h
+/usr/local/include/str_stack.h

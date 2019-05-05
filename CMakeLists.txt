@@ -4,5 +4,6 @@ set(CMAKE_CXX_STANDARD 14)
 
 ENABLE_TESTING()
 
-add_subdirectory(hashmap)
 add_subdirectory(stack)
+add_subdirectory(hashmap)
+

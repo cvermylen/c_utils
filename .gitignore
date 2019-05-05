@@ -5,7 +5,9 @@ bin
 
 # CLion
 .idea
-Testing/
+Testing
+hashmap/Testing
+stack/Testing
 DartConfiguration.tcl
 *.cbp
 

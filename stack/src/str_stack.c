@@ -9,7 +9,6 @@ void str_stack_push(stack_head_t* stack, char* elem)
 	char* s = (char*)malloc(sizeof(char) * (strlen((elem) + 1)));
 	strcpy(s, elem);
 	s[strlen(elem)] = (char)0x00;
-	printf("'%s'\n", s);
 	stack_push(stack, s);
 }
 
@@ -33,8 +32,8 @@ void str_stack_free(stack_head_t* stack)
 	}
 }
 
-char* str_stack_2_print_lines(stack_head_t* stack){
-
+char* str_stack_2_print_lines(stack_head_t* stack)
+{
     int total_length = str_stack_total_length(stack);
 
     char* result = (char*) malloc(sizeof(char) * total_length + 1);
@@ -43,7 +42,8 @@ char* str_stack_2_print_lines(stack_head_t* stack){
     return result;
 }
 
-int str_stack_total_length(stack_head_t* stack) {
+int str_stack_total_length(stack_head_t* stack)
+{
     int total_length = 0;
     stack_node_t* e = stack->root;
     for (int i = 0; i < stack->num_elems; i++) {
@@ -53,11 +53,14 @@ int str_stack_total_length(stack_head_t* stack) {
     return total_length;
 }
 
-void str_stack_copy_elem_to_buffer(char* dest_buffer, stack_head_t* stack) {
+void str_stack_copy_elem_to_buffer(char* dest_buffer, stack_head_t* stack)
+{
     stack_node_t* e = stack->root;
     int pos = 0;
     for (int i = 0; i < stack->num_elems; i++) {
         strcpy(&dest_buffer[pos], e->elem);
         pos += strlen(e->elem);
+        e = e->next;
     }
+    dest_buffer[pos] = 0x00;
 }
