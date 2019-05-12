@@ -6,4 +6,3 @@ ENABLE_TESTING()
 
 add_subdirectory(stack)
 add_subdirectory(hashmap)
-

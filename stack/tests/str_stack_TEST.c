@@ -5,8 +5,8 @@
 Test(str_stack, push_pop)
 {
 	stack_head_t* st = stack_init();
-	static const char s1[] = "key1";
-	static const char s2[] = "value1";
+	char s1[] = "key1";
+	char s2[] = "value1";
 	str_stack_push(st, s1);
 	str_stack_push(st, s2);
 	char* v1 = str_stack_pop(st);
@@ -31,7 +31,7 @@ Test(str_stack_total_length, one)
 {
     stack_head_t* st = stack_init();
 
-    static const char value[] = "First Element";
+    char value[] = "First Element";
     str_stack_push(st, value);
 
     int res = str_stack_total_length(st);
@@ -47,10 +47,10 @@ Test(str_stack_total_length, four)
 {
     stack_head_t* st = stack_init();
 
-    static const char rvalue1[] = "Synthesis: Tests";
-    static const char rvalue2[] = "Passing";
-    static const char rvalue3[] = "Failing";
-    static const char rvalue4[] = "Or otherwise..";
+    char rvalue1[] = "Synthesis: Tests";
+    char rvalue2[] = "Passing";
+    char rvalue3[] = "Failing";
+    char rvalue4[] = "Or otherwise..";
 
     str_stack_push(st, rvalue1);
     str_stack_push(st, rvalue2);
@@ -73,18 +73,18 @@ Test(str_stack_copy_buffer, empty)
     char buffer[] = "1234567890";
 
     str_stack_copy_elem_to_buffer(buffer, st);
-    cr_assert(0 == strlen(buffer), "Content of an empty string stack should be an empty string, not a string of size:%d", strlen(buffer));
+    cr_assert(0 == strlen(buffer), "Content of an empty string stack should be an empty string, not a string of size:%lu", strlen(buffer));
 }
 
 Test(str_atck_copy_buffer, one)
 {
     stack_head_t* st = stack_init();
 
-    static const char value[] = "First Element";
+    char value[] = "First Element";
     str_stack_push(st, value);
 
     char buffer[] = "12345678901234567890";
 
     str_stack_copy_elem_to_buffer(buffer, st);
-    cr_assert(strlen(value) == strlen(buffer), "Content of an empty string stack should be an empty string, not a string of size:%d", strlen(buffer));
+    cr_assert(strlen(value) == strlen(buffer), "Content of an empty string stack should be an empty string, not a string of size:%lu", strlen(buffer));
 }
