@@ -6,9 +6,9 @@
 void str_stack_push(stack_head_t* stack, char* elem)
 {
 	if(stack == NULL) return;
-	char* s = (char*)malloc(sizeof(char) * (strlen((elem) + 1)));
+	char* s = (char*) malloc (sizeof(char) * (strlen(elem) + 1));
 	strcpy(s, elem);
-	s[strlen(elem)] = (char)0x00;
+	s[strlen(elem)] = '\0';
 	stack_push(stack, s);
 }
 
@@ -34,8 +34,10 @@ void str_stack_free(stack_head_t* stack)
 
 char* str_stack_2_print_lines(stack_head_t* stack)
 {
+    if(stack == NULL){
+        return NULL;
+    }
     int total_length = str_stack_total_length(stack);
-
     char* result = (char*) malloc(sizeof(char) * total_length + 1);
     str_stack_copy_elem_to_buffer(result, stack);
     result[total_length] = 0x00;

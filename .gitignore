@@ -2,6 +2,7 @@
 bin
 # Prerequisites
 *.d
+install_manifest.txt
 
 # CLion
 .idea
