@@ -34,9 +34,22 @@ void should_free_using_utility()
 void should_free_str_stack()
 {
     stack_head_t* st  = stack_init();
-    str_stack_push(st, "toto");
+    str_stack_push(st, "John");
     str_stack_free(st);
 }
+
+void formatted_string_of_stack_content()
+{
+    stack_head_t* st = stack_init();
+    str_stack_push(st, "John Doe");
+    str_stack_push(st, "Jane Doe");
+
+    char* output = str_stack_2_formatted_line(st);
+
+    free(output);
+    str_stack_free(st);
+}
+
 int main()
 {
     should_free_empty_stack();
@@ -44,4 +57,5 @@ int main()
     should_free_the_same_way();
     should_free_using_utility();
     should_free_str_stack();
+    formatted_string_of_stack_content();
 }
